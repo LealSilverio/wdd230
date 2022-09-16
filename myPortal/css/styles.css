@@ -3,20 +3,37 @@
 #content{
     width: 50%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+    color: #40725f;
+}
+a:hover{
+    color: #74a492;
 }
 header{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    /* background-color: rgb(252, 184, 194); */
+    background-color: #A5D3C1;
     color:black;
     text-align: center;
     align-items: center;
-    font-size: 26pt;
+    font-size: 30pt;
     font-weight: bold;
     font-family:'Nothing You Could Do', cursive;
 }
 img{
     border-radius: 25%;
+    margin: 15px;
+    margin-bottom: 0;
+}
+footer{
+    background-color: #A5D3C1;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 12pt;
 }
