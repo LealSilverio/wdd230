@@ -1,5 +1,6 @@
-const newDate = new Date();
-const time = newDate.getHours() + ":" + newDate.getMinutes() + ":" + newDate.getSeconds();
+const today = new Date();
 
-document.getElementById("dateUpdate").innerHTML = newDate.toLocaleDateString("short") + " " + time;
-document.getElementById("currentYear").innerHTML = newDate.getFullYear();
+document.querySelector("footer div span").textContent = today.getFullYear();
+document.getElementById("dateUpdate").textContent = document.lastModified;
+
+

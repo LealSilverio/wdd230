@@ -1,21 +1,22 @@
-body{
-    background-color: white;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-}
-main{
-    height: 760px;
-    margin: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+#content{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header{
-    display: flex;
-}
-.background{
-    
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    /* background-color: rgb(252, 184, 194); */
+    color:black;
+    text-align: center;
+    align-items: center;
+    font-size: 26pt;
+    font-weight: bold;
+    font-family:'Nothing You Could Do', cursive;
 }
 img{
-    width: 15%;
-    height: auto;
     border-radius: 25%;
 }
