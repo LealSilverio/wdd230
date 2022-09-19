@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+#content{
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+    color: #184634;
+}
+a:hover{
+    color: #74a492;
+}
+header{
+    background-color: #A5D3C1;
+    color:black;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-family:'Nothing You Could Do', cursive;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+section{
+    background-color: gainsboro;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin: 10px;
+}
+section div{
+    background-color: #A5D3C1;
+    color: black;
+}
+footer{
+    background-color: #A5D3C1;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 12pt;
+}
