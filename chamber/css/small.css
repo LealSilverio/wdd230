@@ -1,0 +1,97 @@
+body{
+    margin: 0 auto;
+}
+header{
+    background-color: #0F0637;
+    color: #D9F0FF;
+}
+.headerContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.brand{
+    display: inline-flex;
+    align-items: center;
+}
+img{
+    width: 60px;
+    margin: 10px;
+}
+.title{
+    font-size: 1em;
+    font-weight: bold;
+}
+.social img{
+    width: 20px;
+    margin: 5px;
+}
+#ham{
+    color:#D9F0FF;
+}
+#todayDate{
+    padding: 5px 0 15px 0;
+
+}
+nav button{
+    margin: .2em 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2em;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    padding: .8em;
+    text-decoration: none;
+    border-top: 1px solid #0A64BC;
+    color: #D9F0FF;
+}
+nav ul li a:hover{
+    background-color: #0A64BC;
+    color: #D9F0FF;
+}
+nav ul {
+    display: none;
+}
+nav ul.open {
+    display: block;
+}
+#ham span:nth-child(1) {
+    display: block;
+}
+#ham span:nth-child(2) {
+    display: none;
+}
+#ham.open span:nth-child(1) {
+    display: none;
+}
+#ham.open span:nth-child(2) {
+    display: block;
+}
+main section{
+    background-color: #eee;
+    border: 1px solid #0F0637;
+    padding: 15px 0 50px 15px;
+    margin: 10px;
+}
+.spotlights{
+    padding: 15px;
+}
+.spotlight1, .spotlight2, .spotlight3{
+    border: 1px solid #0F0637;
+    padding: 15px 0 50px 15px;
+}
+footer{
+    background-color: #0F0637;
+    color: #D9F0FF;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 12pt;
+}
