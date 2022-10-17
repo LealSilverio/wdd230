@@ -1,9 +1,15 @@
+primary_color = 
+
+
 body{
     margin: 0 auto;
 }
 header{
     background-color: #0F0637;
     color: #edf8ff;
+}
+header p:nth-child(1){
+    display: none;
 }
 .headerContent{
     display: flex;
@@ -27,17 +33,20 @@ img{
     width: 20px;
     margin: 5px;
 }
-#ham{
-    color:#edf8ff;
-}
 #todayDate{
-    padding: 5px 0 15px 0;
+    border: 1px solid #edf8ff;
+    width: 90%;
+    background-color: #201843;
+    margin: 10px 0 15px 0;
+    text-align: center;
+    padding: 10px 0;
 }
 nav button{
     margin: .2em 2vw;
     background: transparent;
     border: none;
     font-size: 2em;
+    color:#edf8ff;
 }
 nav ul{
     list-style-type: none;
@@ -74,10 +83,37 @@ nav ul.open {
     display: block;
 }
 main section{
-    background-color: #eee;
-    border: 1px solid #0F0637;
-    padding: 15px 0 80px 15px;
+    padding: 0;
     margin: 10px;
+    background-color: #77a8da;
+}
+.hero{
+    background-color: transparent;
+}
+.hero img{
+    width: 100%;
+    margin: 0;
+}
+.hero h1{
+    position: absolute;
+    bottom: 275px;
+    left: 20px; 
+    color:#edf8ff;
+}
+.hero button{
+    position: absolute;
+    bottom: 320px;
+    left: 335px; 
+    color:#edf8ff;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+}
+.hero button:hover{
+    color: #b4c7d3;
+}
+.weather{
+    width: 90%;
 }
 .spotlights{
     padding: 15px;
@@ -96,4 +132,21 @@ footer{
     text-align: center;
     align-items: center;
     font-size: 12pt;
+}
+footer a{
+    text-decoration: none;
+    color: #edf8ff;
+}
+footer a:hover{
+    color: #77a8da;
+}
+footer a::after{
+    color: #edf8ff;
+}
+.info img{
+    width: 20px;
+    margin: 0 5px;
+}
+.info a{
+    padding-bottom: 20px;
 }
