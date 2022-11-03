@@ -1,0 +1,108 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+/*  Example 1 */
+/* 
+.element{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example; 
+    animation-duration: 4s;
+}
+
+@keyframes example{
+    from {background-color: red;}
+    to {background-color: yellow;}
+} */
+
+
+/*  Example 2 */
+/* 
+.element{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation-name: example; 
+    animation-duration: 4s;
+}
+
+@keyframes example{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+} */
+
+
+/*  Example 3 */
+
+/* .element{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    animation-name: example; 
+    animation-duration: 4s;
+}
+
+@keyframes example{
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
+} */
+
+
+/*  Example 4 */
+/* 
+.element{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    animation-name: example; 
+    animation-duration: 4s;
+}
+
+@keyframes example{
+    0%   {background-color: red; left:0px; top:0px;}
+    25%  {background-color: yellow; left:200px; top:0px;}
+    50%  {background-color: blue; left:200px; top:200px;}
+    75%  {background-color: green; left:0px; top:200px;}
+    100% {background-color: red; left:0px; top:0px;}
+} */
+
+
+/*  Extra Example */
+/* 
+.element{
+    width: 150px;
+    height: 150px;
+    background-color: darkolivegreen;
+    animation: example 3s ease infinite;
+}
+  
+@keyframes example{
+    0%   {
+        transform: rotate(0deg); scale: 1;
+    }
+    25%  {
+        transform: rotate(360deg); scale: 1.2;
+    }
+    50%  {
+        transform: rotate(0deg); scale: 2;
+        background-color: maroon;
+    }
+    75%  {
+        transform: rotate(0deg); scale: 1.2;
+    }
+    100% {
+        transform: rotate(0deg); scale: 1;
+        background-color: darkolivegreen;
+    }
+} */
