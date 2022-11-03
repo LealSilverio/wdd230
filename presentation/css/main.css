@@ -5,8 +5,8 @@ body{
 }
 
 /*  Example 1 */
-/* 
-.element{
+
+/* .element{
     width: 100px;
     height: 100px;
     background-color: red;
@@ -21,8 +21,8 @@ body{
 
 
 /*  Example 2 */
-/* 
-.element{
+
+/* .element{
     width: 150px;
     height: 150px;
     background-color: red;
@@ -39,8 +39,8 @@ body{
 
 
 /*  Example 3 */
-
-/* .element{
+/* 
+.element{
     width: 150px;
     height: 150px;
     background-color: red;
@@ -59,8 +59,8 @@ body{
 
 
 /*  Example 4 */
-/* 
-.element{
+
+/* .element{
     width: 150px;
     height: 150px;
     background-color: red;
@@ -79,7 +79,7 @@ body{
 
 
 /*  Extra Example */
-/* 
+
 .element{
     width: 150px;
     height: 150px;
@@ -105,4 +105,4 @@ body{
         transform: rotate(0deg); scale: 1;
         background-color: darkolivegreen;
     }
-} */
+}
