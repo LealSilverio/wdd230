@@ -1,0 +1,29 @@
+<main>
+    <section>
+        <div>
+            <form action="thankyou.html" method="GET">
+                <label class="myInput" for="fname">First Name*<input type="text" id="fname" name="fname" required></label>
+                <label class="myInput" for="lname">Last Name*<input type="text" id="lname" name="lname" required></label>
+                <label class="myInput" for="title">Title<input type="text" id="title" name="title" pattern="[A-Za-z -]{7,9}"></label>
+                <label class="myInput" for="email">Email*<input type="email" id="email" name="email" required></label>
+                <label class="myInput" for="phone">Cell Phone*<input type="tel" id="phone" name="phone" required></label>
+                <label class="myInput" for="businessName">Business Name*<input type="text" id="businessName" name="businessName" required></label>
+                <h3>Membership Level</h3>
+                <label calss="radioButton" for="radio1"><input type="radio" id="radio1" name="level" value="nonprofit">Non-Profit</label>
+                <label calss="radioButton" for="radio2"><input type="radio" id="radio2" name="level" value="Bronze">Bronze</label>
+                <label calss="radioButton" for="radio3"><input type="radio" id="radio3" name="level" value="Silver">Silver</label>
+                <label calss="radioButton" for="radio4"><input type="radio" id="radio4" name="level" value="Gold">Gold</label>
+                <label for="businessDescription">Business Description <textarea name="description" id="businessDescription" cols="40" rows="5"></textarea></label>
+                <label for="hiddenDateTime"><input type="hidden" id="hiddenDateTime" name="datetime" value=""></label>
+                <input type="submit" value="Join Us">
+            </form>
+        </div>
+        <div>
+            <h2>Membership Level Benefits</h3>
+            <h3>NP Membership</h3>
+            <h3>Bronze</h3>
+            <h3>Silver</h3>
+            <h3>Gold</h3>
+        </div>
+    </section>
+</main>

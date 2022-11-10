@@ -39,8 +39,8 @@ body{
 
 
 /*  Example 3 */
-/* 
-.element{
+
+/* .element{
     width: 150px;
     height: 150px;
     background-color: red;
@@ -99,7 +99,7 @@ body{
         background-color: maroon;
     }
     75%  {
-        transform: rotate(0deg); scale: 1.2;
+        transform: rotate(270deg); scale: 1.2;
     }
     100% {
         transform: rotate(0deg); scale: 1;
