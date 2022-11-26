@@ -1,3 +1,46 @@
 main{
-
+    display: flex;
+    height: auto;
+}
+main section{
+    background-color: #e6e6e6;
+    padding: 25px;    
+}
+form{
+    display: table;
+}
+.myInput{
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+form label, input{
+    display: flex;
+}
+form .text label, textarea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+label{
+    font-weight: 600;
+}
+textarea{
+    width: 50%;
+}
+.button{
+    margin: 10px 0;
+}
+.levels{
+    margin: 5px;
+    padding: 5px;
+    background-color: #d8d6d6;
+}
+li{
+    margin-left: 10px;
+}
+@media screen and (min-width:1280px){
+    .myInput{
+        padding-bottom: 10px;
+    }
 }
