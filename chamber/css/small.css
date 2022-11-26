@@ -1,6 +1,7 @@
 body{
     margin: 0 auto;
 }
+
 header{
     background-color: #0F0637;
     color: #edf8ff;
@@ -37,6 +38,7 @@ img{
     margin: 10px 0 15px 0;
     text-align: center;
     padding: 10px 0;
+    color: #edf8ff;
 }
 nav button{
     margin: .2em 2vw;
@@ -79,6 +81,11 @@ nav ul.open {
 #ham.open span:nth-child(2) {
     display: block;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+}
 main section{
     padding: 0;
     margin: 10px;
@@ -93,24 +100,47 @@ main section{
 }
 .hero h1{
     position: absolute;
-    bottom: 275px;
-    left: 20px; 
+    bottom: 427px;
+    left: 33px; 
     color:#edf8ff;
 }
 .hero button{
     position: absolute;
-    bottom: 320px;
-    left: 335px; 
+    bottom: 467px;
+    left: 403px; 
     color:#edf8ff;
     border: none;
     background-color: transparent;
-    font-size: 1.2em;
+    font-size: 2em;
+    font-weight: bold;
 }
 .hero button:hover{
     color: #b4c7d3;
+
 }
 .weather{
     width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+.weather div div, .wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather img{
+    width: 30%;
+}
+.weather h3{
+    font-size: 4.5em;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.weather p, .windC{
+    font-size: 1.3em;
+}
+.windS, .windC{
+    margin-left: 40px;
 }
 .spotlights{
     padding: 15px;
@@ -122,6 +152,7 @@ main section{
 .join{
     display: none;
 }
+
 footer{
     background-color: #0F0637;
     color: #edf8ff;

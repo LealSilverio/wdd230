@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/large.css">
         <link rel="icon" href="img/logoIcon.png" type="image/x-icon">
         <script src="js/main.js" defer></script>
+        <script src="js/windchill.js" defer></script>
 
         <title>Chambers of Commerce</title>
     </head>
@@ -32,7 +33,7 @@
                 <button id="ham"><span>&#9776</span><span>X</span></button>
                 <ul id="primaryNav">
                     <li><a href="./discover.html">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
+                    <li><a href="./index.html">Directory</a></li>
                     <li><a href="./join.html">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -43,22 +44,32 @@
     <main>
         <section class="hero">
             <div>
-                <img src="img/architecture-gcd940f82d_1920.jpg" alt="Image of castle in the sunset by Joe from Pixabay">
+                <img src="img/wdd230-org.jpg" alt="Image of castle in the sunset by Joe from Pixabay">
                 <h1>Welcome to<br> the Round Table</h1>
                 <button>Join us</button>
             </div>
         </section>
         <section class="event">
             <div>
-                <h2>News Release</h2>
+                <h2>Event</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae similique vitae a dolores deserunt exercitationem aperiam voluptatibus, commodi ea tenetur odio earum, dolore obcaecati cum numquam, libero debitis eos architecto.</p>
             </div>
         </section>
         <section class="weather">
             <div>
                 <h2>Weather</h2>
-                <img src="img/cloudy.png" alt="icon of cloudy day with a little bit of sun">
-                <div>63°F</div>
+                <div>
+                    <img src="img/cloudy.png" alt="icon of cloudy day with a little bit of sun">
+                    <h3 class="temperature">63</h3><h3 class="F">°F</h3>
+                </div>
+                    <p>Partially Clowdy</p>
+            </div>
+            <hr>
+            <div class="wind">
+                <p>Wind Speed: </p><p class="windS">2.5</p><p>mph</p>
+            </div>
+            <div class="wind">
+                <p>Wind Chill: </p><span class="windC"></span>
             </div>
         </section>
         <section class="news">

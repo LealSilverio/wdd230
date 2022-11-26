@@ -18,13 +18,10 @@ if(today.getDate() == 4){
 }
 
 // footer
-window.addEventListener('load', (today) => {
-    
+document.getElementById('currentYear').textContent = today.getFullYear();
+document.getElementById('dateUpdate').textContent = document.lastModified;
+document.getElementById('todayDate').textContent = today.toLocaleDateString('default', {weekday: 'long',}) +', '+ today.getDate()+ " " + today.toLocaleDateString('defaut', {month: 'long'}) + " " + today.getFullYear();
 
-    document.getElementById('currentYear').textContent = today.getFullYear();
-    document.getElementById('dateUpdate').textContent = document.lastModified;
-    document.getElementById('todayDate').textContent = 
-        today.toLocaleDateString('default', {weekday: 'long',}) +', '+ today.getDate()+ " " + today.toLocaleDateString('defaut', {month: 'long'}) + " " + today.getFullYear();
-});
+
 console.log("Made it here 3");
 
