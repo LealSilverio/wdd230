@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+.buttons{
+    display: inline;
+    text-align: center;
+    margin-bottom: 10px;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+button:hover{
+    background-color: #d4eefe;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #0F0637;
+    justify-items: center;
+    justify-content: center;
+}
+.cards section{
+    background-color: #edf8ff;
+    border: 1px solid #0A64BC;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+.cards section h2{
+    font-size: 1.5em;
+}
+.cards section p{
+    font-size: 1.1em;
+}
+.cards section img{
+    width: 50%;
+
+}
+.grid.open{
+    display: block;
+}
+
+
+/* medium view */
+@media screen and (min-width:640px) {
+    main{
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* large view */
+@media screen and (min-width:1280px) {
+    main{
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

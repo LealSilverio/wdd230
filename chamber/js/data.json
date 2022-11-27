@@ -1,0 +1,88 @@
+{
+    "businesses": [
+        {
+            "image": "img/directory/allstate.jpg", 
+            "name": "Allstate Insurance",
+            "address": "524 W Perkins Ave",
+            "phone": "(419) 626-9444",
+            "website": "https://agents.allstate.com/david-r-haerr-sandusky-oh.html?cid=LDR-YP-CF-160615:MLP&Campaign=222230000015670"
+        },
+        {
+            "image": "img/directory/Prestige-Storage.png", 
+            "name": "All-American Mini Storage",
+            "address": "7702 Milian Rd",
+            "phone": "(419) 621-1515",
+            "website": "https://www.prestigestoreit.com/"
+        },
+        {
+            "image": "img/directory/original.jpg", 
+            "name": "Chime Technologies",
+            "address": "1331 Camp St",
+            "phone": "(419) 621-7410",
+            "website": "https://www.chimepc.com/"
+        },
+        {
+            "image": "img/directory/jst-1-01-2-1024x598.png", 
+            "name": "Blue Streak Web Marketing Agency",
+            "address": "2704 Fairmont Ln",
+            "phone": "(216) 317-9656",
+            "website": "https://bluestreakwebmarketing.com/"
+        },
+        {
+            "image": "img/directory/logo.png", 
+            "name": "Putt-Putt Fun Center",
+            "address": "7901 Midlothian Tpke",
+            "phone": "(804) 272-4373",
+            "website": "https://www.myputtputt.com/"
+        },
+        {
+            "image": "img/directory/logo_header.png", 
+            "name": "Law Office of Wood & Wood PC",
+            "address": "1801 Libbie Ave",
+            "phone": "(804) 999-2227",
+            "website": "http://www.woodwoodlaw.com/"
+        },
+        {
+            "image": "img/directory/salon.png", 
+            "name": "Mike Blendz Barbershop Salon",
+            "address": "1608 Ownbt Ln",
+            "phone": "(804) 982-1223",
+            "website": "http://www.mikeblendzllc.com/"
+        },
+        {
+            "image": "img/directory/WKH-Logo-MediumGreen.webp", 
+            "name": "WKH Solutions",
+            "address": "4905 Radford Ave",
+            "phone": "(804) 658-5735",
+            "website": "https://wkhsolutions.com/"
+        },
+        {
+            "image": "img/directory/iron-mountain.jpg", 
+            "name": "Iron Mountain",
+            "address": "2120 Buzick Dr",
+            "phone": "(866) 204-1524",
+            "website": "https://www.ironmountain.com/?utm_source=yellow_pages&utm_medium=referral&utm_campaign=YP+Records+Management"
+        },
+        {
+            "image": "img/directory/334x74.webp", 
+            "name": "Jackson Hewitt Tax Service",
+            "address": "7 Washington Ave",
+            "phone": "(800) 417-2403",
+            "website": "https://office.jacksonhewitt.com/tax-preparation-services-locations/en/ny/endicott/7-washington-ave/10073?utm_source=extnet&utm_medium=local&utm_campaign=localmaps&utm_content=10073"
+        },
+        {
+            "image": "img/directory/italian-restaurant.jpg", 
+            "name": "Franks Italian Restaurant",
+            "address": "2633 St Route 26 Ave",
+            "phone": "(607) 323-5445",
+            "website": "https://www.frankspizzeriaanditalianrestaurant.com/contact"
+        },
+        {
+            "image": "img/directory/SPEAK-Logo-Final.png", 
+            "name": "Speak Animal Hospital",
+            "address": "351 Flint Rd",
+            "phone": "(607) 729-7368",
+            "website": "http://speakanimalhospital.org/"
+        }
+    ]
+}
