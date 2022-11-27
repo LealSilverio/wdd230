@@ -3,10 +3,16 @@ h1{
     font-weight: 700;
     font-size: 2.5em;
 }
+a{
+    text-decoration: none;
+    color:  #0A64BC;
+}
+a:hover{
+    color: black;
+}
 .buttons{
     display: inline;
     text-align: center;
-    margin-bottom: 10px;
 }
 button{
     background-color: transparent;
@@ -21,28 +27,44 @@ button:hover{
     background-color: #0F0637;
     justify-items: center;
     justify-content: center;
+    margin: 15px 0;
 }
 .cards section{
+    display: flex;
     background-color: #edf8ff;
     border: 1px solid #0A64BC;
     width: 90%;
-    padding: 10px;
-    text-align: center;
+    padding: 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .cards section h2{
     font-size: 1.5em;
+    margin-top: 0;
 }
 .cards section p{
     font-size: 1.1em;
+    margin-top: 0;
 }
 .cards section img{
     width: 50%;
-
 }
-.grid.open{
-    display: block;
+.list{
+    display: none;
 }
-
+.list.open{
+    display: block;  
+    margin: 10px 0;
+}
+.list.open section{
+    display: flex;
+    background-color: #edf8ff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 10px;
+}
 
 /* medium view */
 @media screen and (min-width:640px) {
@@ -52,11 +74,25 @@ button:hover{
         width: auto;
     }
     .cards{
+        display: none;
+    }
+    .cards.open{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .list{
+        display: block;  
+        margin: 10px 0;
+    }
+    .list section{
+        display: flex;
+        background-color: #edf8ff;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin: 5px 10px;
+    }
 }
-
 
 /* large view */
 @media screen and (min-width:1280px) {
@@ -68,5 +104,11 @@ button:hover{
     .cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .list{
+        display: none;
+    }
+    .list.open{
+        display: block;
     }
 }
