@@ -21,9 +21,17 @@
         grid-column: 1/3;
         grid-row: 1/2;
     }
+    .hero button{
+        bottom: 35px;
+        left: 715px; 
+    }
+    .hero h1{
+        font-size: 2em;
+    }
     .news{
         grid-column: 1/3;
         grid-row: 2/3;
+        height: auto;
     }
     .spotlights{
         display: grid;

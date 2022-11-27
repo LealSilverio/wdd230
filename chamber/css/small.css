@@ -87,7 +87,7 @@ main{
     flex-direction: column;
 }
 main section{
-    padding: 0;
+    padding: 15px;
     margin: 10px;
     background-color: #77a8da;
 }
@@ -98,16 +98,20 @@ main section{
     width: 100%;
     margin: 0;
 }
+.hero div{
+    position: relative;
+    text-align: left;
+}
 .hero h1{
     position: absolute;
-    bottom: 427px;
-    left: 33px; 
+    bottom: 5px;
+    left: 30px; 
     color:#edf8ff;
 }
 .hero button{
     position: absolute;
-    bottom: 467px;
-    left: 403px; 
+    bottom: 35px;
+    left: 420px; 
     color:#edf8ff;
     border: none;
     background-color: transparent;
@@ -116,11 +120,9 @@ main section{
 }
 .hero button:hover{
     color: #b4c7d3;
-
 }
 .weather{
     width: 90%;
-    padding: 10px;
     text-align: center;
 }
 .weather div div, .wind{
@@ -142,17 +144,16 @@ main section{
 .windS, .windC{
     margin-left: 40px;
 }
-.spotlights{
-    padding: 15px;
-}
 .spotlight1, .spotlight2, .spotlight3{
     border: 1px solid #0F0637;
     padding: 15px 0 80px 15px;
 }
+.spotlight3{
+    display: none;
+}
 .join{
     display: none;
 }
-
 footer{
     background-color: #0F0637;
     color: #edf8ff;
