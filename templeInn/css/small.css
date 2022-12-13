@@ -1,0 +1,183 @@
+body {
+    margin: 0 auto;
+    color: #333;
+    min-width: 310px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+img {
+    width: 45px;
+    margin: 10px;
+}
+button {
+    border: none;
+    background-color: transparent;
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 0;
+}
+nav {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.brand {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.brandName {
+    display: none;
+}
+header a {
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+header a button{
+    padding: 10px 20px;
+    font-weight: bold;
+}
+header p:nth-child(1) {
+    display: none;
+}
+nav button {
+    font-size: 2em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8em;
+    border-top: 1px solid #333;
+}
+nav ul li a:hover, header a button:hover {
+    background-color: #2762A2;
+    color: #F1F1F3;
+}
+nav ul {
+    display: none;
+}
+nav ul.open {
+    display: block;
+}
+#ham span:nth-child(1) {
+    display: block;
+}
+#ham span:nth-child(2) {
+    display: none;
+}
+#ham.open span:nth-child(1) {
+    display: none;
+}
+#ham.open span:nth-child(2) {
+    display: block;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.hero img {
+    width: 100%;
+    margin: 0 auto;
+    min-width: 200px;
+}
+.hero {
+    position: relative;
+    text-align: center;
+}
+.title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #F1F1F3;
+}
+.weather{
+    width: 90%;
+    text-align: center;
+}
+.weather div div, .wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather img{
+    width: 30%;
+}
+.weather h3{
+    font-size: 4.5em;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.weather p, .windC{
+    font-size: 1.3em;
+}
+.windS, .windC{
+    margin-left: 40px;
+}
+footer {
+    background-color: #F1F1F3;
+    padding: 10px;
+    text-align: center;
+    font-size: 12pt;
+}
+footer img {
+    width: 85px;
+}
+.social div , .info div {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.social img {
+    width: 30px;
+    margin: 5px;
+}
+.form {
+    display: table;
+    margin: 15px;
+    background-color: #e8e7e7;
+    padding: 15px;
+}
+.myInput{
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+form label, input{
+    display: flex;
+}
+form .text label, textarea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+}
+textarea{
+    width: 96%;
+}
+.button{
+    margin: 10px 0;
+    margin-left: 5px;
+    padding: 5px;
+}
+.map {
+    min-width: 100px;
+    width: 300px;
+    height: auto;
+    margin: 5px 0;
+}
+@media screen and (min-width:520px) {
+    .title{
+        font-size: 1.8em;
+    }
+}

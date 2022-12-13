@@ -1,0 +1,105 @@
+{
+    "temples": [
+        {
+            "image": "./img/temple/rexburg_idaho_temple.jpeg", 
+            "name": "Rexburg Idaho Temple",
+            "address": "750 S 2nd E. Rexburg ID USA",
+            "phone": "(1) 208-656-0880",
+            "services": [
+                    "Clothing rental", 
+                    "No cafeteria", 
+                    "No patron housing", 
+                    "Distribution center nearby"],
+            "history": [
+                    "The Rexburg Idaho Temple was the third temple built in Idaho, following the Idaho Falls Idaho Temple (1945) and the Boise Idaho Temple (1984). ",
+                    "The announcement of the Rexburg Idaho Temple came three and a half years after the announcement that two-year Ricks College would become four-year Brigham Young University–Idaho. ",
+                    "While most temple groundbreakings are limited to invited guests, the groundbreaking ceremony for the Rexburg Idaho Temple was open to any and all who desired to attend. ",
+                    "Over 8,000 people crowded on the field where the temple now stands."],
+            "temple closure" : {
+                "2022":[
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022"],
+                "2023": [
+                    "Saturday, 1 April 2023",
+                    "Monday, 10 April 2023 - Monday, 24 April 2023",
+                    "Tuesday, 4 July 2023",
+                    "Saturday, 22 July 2023",
+                    "Monday, 28 August 2023 - Monday, 11 September 2023",
+                    "Saturday, 30 September 2023",
+                    "Thursday, 23 November 2023 - Friday, 24 November 2023",
+                    "Tuesday, 26 December 2023"]}
+        },
+        {
+            "image": "./img/temple/richmond_virginia_temple_groundbreaking.jpeg", 
+            "name": "Richmond Virginia Temple",
+            "address": "10915 Staples Mill Rd. Glen Allen VA USA",
+            "phone": "Not Available",
+            "services": "not available due to construction",
+            "history": [
+                    "The First Presidency has announced the open house and dedication dates for the Richmond Virginia Temple. ",
+                    "The open house will begin with a media day held on Monday, March 20, followed by tours for invited guests from March 21–24, 2023. ",
+                    "The general public is invited to tour the temple from Saturday, March 25, through Saturday, April 15, 2023 with no tours held on Sundays or Saturday, April 1 (during general conference). ",
+                    "The temple will be dedicated on Sunday, May 7, 2023 with Elder Jeffrey R. Holland of the Quorum of the Twelve Apostles presiding. ",
+                    "The dedicatory sessions will be broadcast to all units in the temple district at 9:00 a.m., 12:00 noon, and 3:00 p.m.1"],
+            "temple closure" : "not available due to construction"
+        },
+        {
+            "image": "./img/temple/sao_paulo_brazil_temple_lds.jpeg", 
+            "name": "São Paulo Brazil Temple",
+            "address": "Av. Prof. Francisco Morato, 2390 Caxingui. São Paulo - SP, Brazil",
+            "phone": "(55) 11-3723-7600",
+            "services": [
+                    "Clothing rental", 
+                    "No cafeteria", 
+                    "No patron housing", 
+                    "Distribution center nearby"],
+            "history": [
+                    "The São Paulo Brazil Temple was the first temple built in South America. ",
+                    "Latin American members made numerous sacrifices of time, money, and material treasures to raise money for the São Paulo Brazil Temple. ",
+                    "At the time the São Paulo Brazil Temple was completed, there were only 15 stakes and about 54,000 members in the entire country. ",
+                    "Following the dedication, an incredible 41 additional stakes were organized over the next 12 years, putting national membership at more than 300,000. ",
+                    "Before the São Paulo Brazil Temple was constructed, the closest temple to the Brazilian Saints was the Washington D.C. Temple. ",
+                    "The year after the São Paulo Brazil Temple was dedicated, the Church organized South America's first missionary training center in São Paulo. ",
+                    "For a time, the São Paulo Brazil Temple offered overnight endowment sessions from Friday through Saturday to accommodate the many members who came on the weekend. ",
+                    "When the São Paulo Brazil Temple was rededicated in 2004, Church membership in Brazil had grown to over 867,000."],
+            "temple closure" : {
+                "2022":[
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022"],
+                "2023": [
+                    "Monday, 6 March 2023 - Monday, 20 March 2023",
+                    "Saturday, 1 April 2023",
+                    "Monday, 7 August 2023 - Monday, 21 August 2023",
+                    "Thursday, 7 September 2023",
+                    "Saturday, 30 September 2023",
+                    "Saturday, 23 December 2023",
+                    "Saturday, 30 December 2023"]}
+        },
+        {
+            "image": "./img/temple/campinas_brazil_temple_lds.jpeg", 
+            "name": "Campinas Brazil Temple",
+            "address": "Rua James Esdras Faust, 400 Barrio Notre Dame. Campinas - SP, Brazil,",
+            "phone": "(55) 19-2102-5800",
+            "services": [
+                    "Clothing rental", 
+                    "Cafeteria", 
+                    "Patron housing", 
+                    "Distribution center nearby"],
+            "history": [
+                    "The Campinas Brazil Temple was the fourth temple built in Brazil and the second built in the state of São Paulo, following the São Paulo Brazil Temple (1978). ",
+                    "At the groundbreaking ceremony, Elder W. Craig Zwick of the Seventy and president of the Brazil Area remarked, 'It was heartwarming to see about 50 buses that had been used to transport the people, and to see the people assembled on the hill; ",
+                    "it was a multitude of faithful saints. The whole experience felt Pentecostal.' Referring to a letter from an eight-year-old boy, who had worked hard to earn a $100 donation to help with the construction of the thirty new smaller temples announced in April conference, ",
+                    "President James E. Faust observed that he and a man who sent in one million dollars that same day '[would both] be equally blessed for their faithfulness, regardless of the size of their donation.'"],
+            "temple closure" : {
+                "2022":[
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022"],
+                "2023": [
+                    "Saturday, 1 April 2023 - Sunday, 2 April 2023",
+                    "Monday, 17 April 2023 - Monday, 1 May 2023",
+                    "Monday, 18 September 2023 - Monday, 2 October 2023",
+                    "Saturday, 23 December 2023 - Monday, 25 December 2023",
+                    "Saturday, 30 December 2023 - Monday, 1 January 2024"]}
+        }
+    ]
+}

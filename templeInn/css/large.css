@@ -1,0 +1,19 @@
+@media screen and (min-width:1280px) {
+    header {
+        font-size: 1.2em;
+    }
+    nav ul li a {
+        padding: .5em 1em;
+    }
+    .brandName {
+        display: block;
+        margin: 10px 5px;
+    }
+    .brand a {
+        display: flex;
+        align-items: center;
+    }
+    .myInput{
+        padding-bottom: 10px;
+    }
+}
