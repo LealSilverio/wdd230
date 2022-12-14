@@ -1,0 +1,73 @@
+.titleS {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #F1F1F3;
+}
+.content div{
+    background-color: #1b446f;
+    justify-items: center;
+    padding: 15px 0;
+    margin: 15px 0;
+}
+.services section, .amenities section{
+    background-color: #f1f1f3;
+    padding: 10px;
+    margin: 20px 0;
+}
+@media screen and (min-width:520px) {
+    .titleS{
+        font-size: 1.8em;
+    }
+}
+/* medium view */
+@media screen and (min-width:640px) {
+    .titleS {
+        font-size: 2.2em;
+        top: 30%;
+        left: 51%;
+    }
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+        margin: 0 15px;
+    }
+}
+@media screen and (min-width:850px) {
+    .titleS{
+        font-size: 3em;
+    }
+}
+/* large view */
+@media screen and (min-width:1280px) {
+    .titleS{
+        font-size: 4em;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .content section{
+        display: grid;
+        text-align: center;
+        background-color: #1b446f;
+    }
+    .services section h2, .amenities section  h2{
+        font-size: 1.7em;
+        margin-top: 0;
+        grid-column: 1/5;
+        padding: 10px 30px;
+    }
+    .content h2, .content p {
+        background-color: #f1f1f3;
+        border: 3px solid #1b446f;
+    }
+    .content p {
+        padding: 20px;
+        font-size: 1.5em;
+    }
+}

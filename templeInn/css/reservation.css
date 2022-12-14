@@ -3,7 +3,7 @@ main{
     height: auto;
 }
 main section{
-    background-color: #2762A2;
+    background-color: white;
     padding: 25px;    
 }
 main .hero{
@@ -21,7 +21,8 @@ main .hero{
 }
 .reservation{
     display: flex;
-    background-color: #F1F1F3;
+    background-color: #2762A2;
+    color: #F1F1F3;
     padding: 20px;
     flex-direction: column;
 }
@@ -48,6 +49,11 @@ main .hero{
     width: 100%;
     justify-content: center;
     margin: 10px 0;
+    color: #2762A2;
+    background-color: #F1F1F3;
+}
+.buttonR:hover{
+    background-color: #e8e7e7;
 }
 @media screen and (min-width:520px) {
     .titleR{
@@ -67,6 +73,9 @@ main .hero{
     }
 }
 @media screen and (min-width:1280px){
+    .reservation {
+        display: table;
+    }
     .myInput{
         padding-bottom: 10px;
     }

@@ -83,6 +83,7 @@ nav ul.open {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .hero img {
     width: 100%;
@@ -101,6 +102,54 @@ main {
     font-size: 1.5em;
     font-weight: bold;
     color: #F1F1F3;
+}
+.hotels {
+    background-color: #e8e7e7;
+    width: 100%;
+    margin-top: 25px;
+}
+.hotels div {
+    background-color: #2762A2;
+    color: #F1F1F3;
+    margin: 35px 30px;
+    padding: 25px 50px 45px 50px;
+}
+.bookNow {
+    float: right;
+    color: #2762A2;
+    background-color: #e8e7e7;
+    padding: 10px;
+    margin: -15px;
+} 
+.bookNow:hover {
+    background-color: #F1F1F3;
+}
+.myTemple div{
+    margin: 30px 50px;
+}
+.myTemple div h3{
+    margin-top: 0;
+}
+.templeIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.templeIntro img{
+    width: 100%;
+}
+.templeIntro h2 {
+    margin-bottom: 0;
+}
+.moreTemples{
+    float: right;
+    margin: 10px 50px;
+    padding: 10px;
+    background-color: #2762A2;
+    color: #F1F1F3;
+}
+.moreTemples:hover{
+    background-color: #24558a;
 }
 .weather{
     width: 90%;

@@ -13,7 +13,23 @@
         display: flex;
         align-items: center;
     }
-    .myInput{
+    .hotels {
+        font-size: larger;
+    }
+    .myTemple {
+        display: flex;
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.7em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    .myInput {
         padding-bottom: 10px;
     }
 }
